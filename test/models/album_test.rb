@@ -2,10 +2,10 @@ require 'test_helper'
 
 class AlbumTest < ActiveSupport::TestCase
   def setup
-    @album = Album.new(title: 'A Title')
-    @artist = Artist.new(name: 'A Name')
-    @genre = Genre.new(name: 'Rock')
-    @song = Song.new(title: 'Song Title', artist: @artist, genre: @genre, length: 2)
+    @album = albums(:album0)
+    @artist = artists(:artist0)
+    @genre = genres(:genre0)
+    @song = songs(:song0)
     # @album1 = albums(album1)
     # @album2 = albums(album2)
     # @album3 = albums(album3)
@@ -22,9 +22,9 @@ class AlbumTest < ActiveSupport::TestCase
 
   test "has multiple artists" do
     @album.artists << @artist
-    b = @album.artists.new(name: 'Another Artist')
-    b.save
-    assert_equal [@artist, b], @album.artists
+    a = @album.artists.new(name: 'Another Artist')
+    a.save
+    assert_equal [@artist, a], @album.artists
   end
 
   test "respond to song(s)" do
@@ -32,8 +32,22 @@ class AlbumTest < ActiveSupport::TestCase
   end
 
   test "has one song" do
-    @album.songs << @song
     assert_equal [@song], @album.songs
+  end
+
+  test "can add more songs" do
+    a = @album.songs.new(title: 'Another Song', artist: @artist, genre: @genre, length: 3)
+    a.save
+    assert_equal [@song, a], @album.songs
+  end
+
+  test "respond to genre(s)" do
+    assert_respond_to @album, :genres
+  end
+
+  test "has one genre" do
+    @album.genres << @genre
+    assert_equal [@genre], @album.genres
   end
 
 end

@@ -1,3 +1,10 @@
+song0:
+  title: 'Song Title'
+  artist: :artist0
+  genre: :genre0
+  length: 2
+  album: :album0
+
 # song1:
 #   title: 'One Title'
 #   length: 4
