@@ -1,0 +1,17 @@
+album1:
+  title: 'Album 1 Title'
+  length: 99
+  artists: 'Artist 1', 'Artist 2'
+  genres: 'Rock', 'Alternative'
+
+album2:
+  title: 'Album 2 Title'
+  length: 111
+  artists: 'Artist 3'
+  genres: 'Alternative'
+
+album3:
+  title: 'Album 3 Title'
+  length: 314
+  artists: 'Artist 1'
+  genres: 'Blues'

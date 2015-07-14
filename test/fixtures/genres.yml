@@ -1,0 +1,17 @@
+rock:
+  name: 'Rock'
+  albums: album1
+  artists: artist1, artist2
+  playlists: playlist2
+
+alternative:
+  name: 'Alternative'
+  albums: album1, album2
+  artists: artist2, artist3
+  playlists: playlist1
+
+blues:
+  name: 'Blues'
+  albums: album3
+  artists: artist1
+  playlists: playlist1

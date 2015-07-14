@@ -1,0 +1,11 @@
+playlist1:
+  name: 'Playlist Eno'
+  length: 246
+  artists: artist1, artist2, artist3
+  genres: alternative, blues
+
+playlist2:
+  name: 'Playlist Owt'
+  length: 202
+  artists: artist2
+  genres: rock

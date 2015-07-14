@@ -1,0 +1,19 @@
+artist1:
+  name: 'Artist Un'
+  bio: 'but is it art?'
+  albums: album1, album3
+  genres: rock, blues
+  playlists: playlist1
+
+artist2:
+  name: 'Artist Deux'
+  bio: 'EIEIOOOooooOOOoooo'
+  albums: album1
+  genres: rock, alternative
+  playlists: playlist1, playlist2
+
+artist3:
+  name: 'Artist Trois'
+  albums: album2
+  genres: alternative
+  playlists: playlist1
