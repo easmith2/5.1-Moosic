@@ -1,38 +1,38 @@
-song1:
-  title: 'One Title'
-  length: 4
-  artist: artist1
-  album: album1
-  genre: rock
-
-song2:
-  title: 'Two Title'
-  length: 3
-  artist: artist1
-  album: album3
-  genre: blues
-  playlists: playlist1
-
-song3:
-  title: 'Three Title'
-  length: 5
-  artist: artist2
-  album: album1
-  genre: rock
-  playlists: playlist2
-
-song4:
-  title: 'Four Title'
-  length: 4
-  artist: artist2
-  album: album1
-  genre: alternative
-  playlists: playlist1
-
-song5:
-  title: 'Five Title'
-  length: 500
-  artist: artist3
-  album: album2
-  genre: alternative
-  playlists: playlist1
+# song1:
+#   title: 'One Title'
+#   length: 4
+#   artist: artist1
+#   album: album1
+#   genre: rock
+#
+# song2:
+#   title: 'Two Title'
+#   length: 3
+#   artist: artist1
+#   album: album3
+#   genre: blues
+#   playlists: playlist1
+#
+# song3:
+#   title: 'Three Title'
+#   length: 5
+#   artist: artist2
+#   album: album1
+#   genre: rock
+#   playlists: playlist2
+#
+# song4:
+#   title: 'Four Title'
+#   length: 4
+#   artist: artist2
+#   album: album1
+#   genre: alternative
+#   playlists: playlist1
+#
+# song5:
+#   title: 'Five Title'
+#   length: 500
+#   artist: artist3
+#   album: album2
+#   genre: alternative
+#   playlists: playlist1
